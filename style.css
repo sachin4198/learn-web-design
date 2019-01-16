@@ -1,0 +1,160 @@
+body{
+	margin: 0;
+}
+header{
+	background-color: black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 45px;
+	font-family: times;
+}
+header h1{
+	display: inline;
+	font-size: 30px;
+	font-weight: 400px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+header ul {
+	display: inline;
+	padding: 0;
+	float: left;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	color: white;
+	float:left;
+	margin-left : 12px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+#nav{
+	font-family: impact;
+}
+.homered{
+	background-color: red;
+	padding:30px 10px 16px 10px;
+}
+.devi{
+	background-color: red;
+	height: 5px;
+}   
+.homeblack:hover{
+	background-color: blue;
+	padding:30px 10px 16px 10px;
+}
+.hero_image {
+	background-image: url(photo/sachin.jpg);
+     height:100vh;
+   background-size: cover;
+        margin: 0;
+    padding: 0;
+}
+.firstline {
+	font-family: cursive;
+margin: 0;
+padding: 9% 5% 0% 55%;
+font-size: 20px;
+color: yellow;
+}
+.second {
+	font-family: comic,cursive;
+	margin: 0.5% 0% 0% 55%;
+	font-size: 75px;
+	color: white;
+	background-color: rgba(102,205,170,0.4,);
+}
+.third {
+	font-family: 'oswald',sans-serif;
+	font-size: 64px;
+	margin:  0.5% 0% 0% 55%;
+	color: black;
+	display: inline-block;
+}
+.forth{
+	margin:  0.5% 0% 0% 55%;
+	background-color: yellow;
+	color: black;
+	height: 50px;
+	font-size: 1.4em;
+	padding: 0 1em;
+	cursor: pointer;
+	font-family: arial;
+	font-weight: 900;
+}
+.loginbox{
+	width: 330px;
+	height: 430px;
+	background: rgba(0,0,0,0.5);
+color: #fff;
+top: 30%;
+left: 5%;
+position: absolute;
+transform: (-30%,-5%);
+box-sizing: border-box;
+padding: 70px 30px;
+}
+.simple{
+width: 100px;
+height: 100px;
+bottom: 87%;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+left: calc(50% - 50px);
+}
+h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 22px;
+}
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 20px;
+	}
+.loginbox input{
+	width:100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+
+   }
+   .loginbox input[type="submit"]{
+    
+	border:none;
+	outline: none;
+	height: 40px;
+	background:#fb2525;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.loginbox a{
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 20px;
+	color: darkgrey;
+}
+.loginbox a:hover
+{
+	color: #ffc107;
+}
